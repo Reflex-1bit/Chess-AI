@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+uploads/
+*.pkl
+models/
+games/
+*.log
+
+# Stockfish (keep source but ignore executables in root)
+stockfish-windows-*.exe
+stockfish-windows-*.zip
+stockfish-windows-*/
+
+# Keep stockfish source code
+!stockfish/src/
+!stockfish/scripts/
+!stockfish/wiki/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache

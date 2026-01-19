@@ -13,7 +13,7 @@ This system analyzes PGN games to:
 
 ## Approach
 
-**Not a chess engine** - This models human mistakes, not chess strength.
+**Not a chess engine** - This models analyzes human mistakes, not chess strength.
 
 **Supervised Learning** - Uses Stockfish eval loss as labels to learn when players make mistakes.
 
@@ -151,4 +151,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Stockfish chess engine for position evaluation
 - Lichess for puzzle API
 - Chess.com for game data API
+
 
